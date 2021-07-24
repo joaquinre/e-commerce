@@ -23,7 +23,7 @@ const productSchema = mongoose.Schema({
 		required: true
 	},
 	brand: {
-		type: Boolean,
+		type: String,
 		required: true,
 	},
 	category: {

@@ -27,6 +27,8 @@
     "start": "react-scripts start",
     "server": "nodemon server",
     "dev": "concurrently \"npm run server\" \"npm run start\"",
+    "data:import": "node seeder",
+    "data:destroy": "node seeder -d",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
